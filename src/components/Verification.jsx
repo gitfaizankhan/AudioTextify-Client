@@ -7,6 +7,7 @@ import useGeneral from "../hooks/useGeneral";
 import apis from "../utils/apis";
 import httpAction from "../utils/httpAction";
 import toast from "react-hot-toast";
+import { FaArrowLeft } from "react-icons/fa6";
 
 const Verification = () => {
   const { navigate, loading, setLoading } = useGeneral();
@@ -148,7 +149,7 @@ const Verification = () => {
             onClick={() => navigate("/login")}
             className="w-full flex items-center justify-center gap-2 border border-gray-300 text-gray-700 py-2 rounded-md hover:bg-gray-100 transition mb-3"
           >
-            <ArrowBack fontSize="small" />
+            <FaArrowLeft className="text-sm" />
             Back to Login
           </button>
 
