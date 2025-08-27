@@ -1,4 +1,4 @@
 export const loginWithGoogle = () => {
   window.location.href =
-    "http://localhost:8000/api/v1/auth/google";
+    "https://audiotextify-server.onrender.com/api/v1/auth/google";
 };
