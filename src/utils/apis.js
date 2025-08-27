@@ -1,6 +1,6 @@
 const apis = () => {
-  // const local = "http://localhost:8080/api/v1/";
-  const live = "https://audiotextify-server.onrender.com/api/v1/";
+  const live = "http://localhost:8000/api/v1/";
+  // const live = "https://audiotextify-server.onrender.com/api/v1/";
 
   const list = {
     loginUser: `${live}users/login`,
