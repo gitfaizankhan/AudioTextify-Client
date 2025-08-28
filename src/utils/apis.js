@@ -1,6 +1,6 @@
 const apis = () => {
   // use env variable
-  const live = process.env.REACT_APP_BASE_URL;
+  const live = import.meta.env.VITE_BASE_URL;;
 
   const list = {
     loginUser: `${live}users/login`,
