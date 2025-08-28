@@ -1,6 +1,6 @@
 const apis = () => {
-  // const live = "http://localhost:8000/api/v1/";
-  const live = "https://audiotextify-server.onrender.com/api/v1/";
+  // use env variable
+  const live = process.env.REACT_APP_BASE_URL;
 
   const list = {
     loginUser: `${live}users/login`,
